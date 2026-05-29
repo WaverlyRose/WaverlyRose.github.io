@@ -202,8 +202,27 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
-/* Extra clearance below the fixed navbar so page titles aren't crowded.
-   (Gem default is 57px = navbar height with no breathing room.) */
+/* Clearance below the fixed navbar so page titles aren't crowded.
+   (Gem default is 57px = navbar height with zero breathing room.) */
 body.fixed-top-nav {
-  padding-top: 78px !important;
+  padding-top: 72px !important;
+}
+
+/* When jumping to a section via the sidebar/TOC, keep the heading clear of the
+   fixed navbar instead of letting it tuck underneath. Selector is scoped to
+   body.fixed-top-nav so it out-specifies the gem's `body h1` (66px) rule. */
+html {
+  scroll-padding-top: 80px;
+}
+
+body.fixed-top-nav {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .anchor {
+    scroll-margin-top: 80px;
+  }
 }
