@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - WaverlyRose
 
 repo_description_lines_max: 2
 
+# Custom, dependency-free repository cards (no external stats service).
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - name: WaverlyRose/mindeye2-demo
+    title: MindEye2-Demo
+    description: Apple Silicon–optimized port of MindEye2 (Scotti et al., ICML 2024) for fMRI-to-image reconstruction. Reduces parameters from ~200M+ to ~40M and memory from 20+ GB to <6 GB while preserving >90% of reconstruction quality.
+    language: Python

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-11-20
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Released [MindEye2-Demo](https://github.com/WaverlyRose/mindeye2-demo): an Apple Silicon–optimized port of MindEye2 (Scotti et al., ICML 2024) for fMRI-to-image reconstruction.

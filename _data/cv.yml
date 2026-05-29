@@ -1,189 +1,195 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Waverly Rose Brim
+  label: AI Research Engineer · Computational Medicine
+  email: wrb@waverlyrose.io
+  location: New York Metropolitan Area
+  image: prof_pic.jpg
+  summary: AI research engineer at the intersection of foundation models and biological data, with a track record of shipping production-grade ML systems for clinical use. Deep fluency in scientific data workflows across genomics, digital pathology, and biomedical imaging, grounded in wet-lab experience from a DARPA-funded neural engineering program. Research interests are multimodal foundation models, biomedical representation learning, clinical decision systems, and computational pathology.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: waverlyrosebrim
+    - network: GitHub
+      username: WaverlyRose
+    - network: GoogleScholar
+      username: VwZLAXoAAAAJ
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: The Johns Hopkins University, Whiting School of Engineering
+        location: Baltimore, MD
+        url: https://ep.jhu.edu/programs/artificial-intelligence/
+        area: Artificial Intelligence
+        studyType: Master of Science
+        start_date: 2022-09
+        end_date: 2026-12
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Coursework: Deep Learning for Computer Vision (A+), AI in Healthcare (A+), Medical Device Innovation and Design (A+), Applied Machine Learning (A), Artificial Intelligence (A), Creating AI-Enabled Systems (A), Algorithms for Data Science (A)"
+          - "Independent research in surgical computer vision"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Institute of Image-Guided Surgery (IHU Strasbourg)
+        location: Strasbourg, France
+        area: Surgical Data Science Summer School
+        studyType: Continuing Education
+        start_date: 2025-07
+        end_date: 2025-07
+
+      - institution: Western Connecticut State University
+        location: Danbury, CT
+        area: Biology
+        studyType: Bachelor of Arts
+        start_date: 2013-09
+        end_date: 2017-05
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Yale University School of Medicine, Department of Neurosurgery
+        position: AI Engineer
+        location: New Haven, CT
+        start_date: 2025-01
+        summary: Building production AI for clinical use as a research affiliate.
         highlights:
-          - Relativity
-          - Description 2.
+          - "Productionized a privacy-safe LLM/RAG service deployed in spine tumor boards: Go-based orchestration and S3 streaming I/O behind FastAPI/Pydantic, deployed on Kubernetes (EKS) with Postgres/pgvector retrieval. Owns the system end-to-end across model integration, evaluation tooling, retrieval iteration, deployment, and incident response."
+          - Designed structured-output pipeline producing FHIR-like JSON with inline citations, plus SRE-grade Grafana dashboards for reliability, latency, and reasoning-trace observability so model behavior stays auditable and decision-ready.
+          - Leads cross-functional work across neurosurgeons, data scientists, and engineers to translate charts, imaging impressions, pathology, and guidelines into one-page briefs that accelerate oncologic decision-making.
+          - "Stack: Go, Python (FastAPI/Pydantic), Postgres/pgvector, AWS (S3, ECR, EKS), Kubernetes, Docker, Grafana"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Yale University School of Medicine, Department of Neurosurgery, Gunel Lab
+        position: Postgraduate Researcher
+        location: New Haven, CT
+        start_date: 2021-11
+        end_date: 2025-03
+        summary: End-to-end computational pathology and genomics for meningioma microenvironments.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Built end-to-end pipelines fusing whole-slide pathology, microscopy, and multicenter genomic data to characterize tumor microenvironments from sample preparation through scalable batch inference and quantitative validation.
+          - Developed classical computer vision and machine learning workflows for subcellular structure detection and segmentation, with emphasis on robust preprocessing, scalable batch inference, and quantitative validation.
+          - Engineered high-throughput genomic data processing utilities to parse heterogeneous multicenter datasets into standardized, analysis-ready dataframes and visualizations, accelerating cross-site interpretation and decision-making.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: The Johns Hopkins University, Malone Center for Engineering in Healthcare (AI for Surgery Lab Startup)
+        position: Research and Development Engineer
+        location: Baltimore, MD
+        start_date: 2023-10
+        end_date: 2024-12
+        summary: Engineered early product and model foundations for Circlage, a computer-vision platform for surgical skill assessment and OR efficiency analytics.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Prototyped an RNN-based surgical case duration prediction capability and designed administrator-facing analytics — forecasted durations, OR utilization trends, cost/earnings rollups, and staffing signals — intended for deployment at Johns Hopkins Hospital and the University of Maryland Medical Center.
+          - Built human-in-the-loop feedback paths so UI interactions produce higher-quality labels, improving downstream computer-vision model performance over time.
+          - Operated as the technical bridge between surgeons, OR administrators, and engineers; led structured concept and usability testing.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Yale University School of Medicine, Department of Radiology, Neuroradiology Section
+        position: Lab Manager and Clinical Research Associate
+        location: New Haven, CT
+        start_date: 2020-10
+        end_date: 2021-11
+        summary: End-to-end research operations and evidence-engineering program management for the lab's AI-in-Neurooncology systematic review program.
+        highlights:
+          - Built and maintained reproducible screening pipelines (Covidence/DistillerSR) coordinating medical students, graduate students, and physicians.
+          - Designed high-recall search strategies and executed structured retrieval across Ovid Embase, Ovid MEDLINE, Cochrane CENTRAL, and Web of Science; triaged 11,000+ abstracts and 700+ full-text manuscripts with audit-ready inclusion/exclusion logic.
+          - Standardized extraction and quality checks to convert heterogeneous literature into publication-grade evidence tables, directly supporting 35+ peer-reviewed publications.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - company: The John B. Pierce Laboratory, Yale University (now New Haven Innovation Labs)
+        position: Neuroelectrophysiology Research Associate
+        location: New Haven, CT
+        start_date: 2019-01
+        end_date: 2020-08
+        summary: Engineered genetically encoded voltage indicators (GEVIs) on the Pentagon's DARPA Neural Engineering System Design (NESD) program.
+        highlights:
+          - Designed primers and mutagenesis strategies, generated variant libraries, constructed plasmids via sub-cloning, and produced/purified AAV vectors to validate expression and signal performance in neuronal systems.
+          - Executed core molecular and cellular workflows (DNA purification, PCR, gel electrophoresis, site-directed mutagenesis, primary neuronal culture); supported in vivo and tissue-level validation including precision vibratome sectioning and organ-scale imaging.
+          - The lab's high-throughput imaging requirements pushed formalization of computation and automation — sparking the pivot into machine learning and computer science.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: SCRUB — Surgical Gloved-Hand Pose Estimation
+        summary: Computer vision system for surgical hand pose estimation under domain shift, addressing the gap between bare-skin-trained pose models and the gloved-hand reality of operating rooms.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Accepted to the WiML Symposium at ICML 2026
+          - Code release planned alongside the MICCAI 2027 submission window
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Production LLM/RAG Service for Spine Oncology Decision Support
+        highlights:
+          - Privacy-safe LLM/RAG service deployed in spine tumor boards at Yale Neurosurgery, producing FHIR-like structured JSON with inline citations and SRE-grade observability for clinical decision support.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: MindEye2-Demo
+        url: https://github.com/WaverlyRose/mindeye2-demo
+        highlights:
+          - "Apple Silicon–optimized port of MindEye2 (Scotti et al., ICML 2024) for fMRI-to-image reconstruction. Reduced parameter count from ~200M+ to ~40M and memory footprint from 20+ GB to <6 GB while preserving >90% of original reconstruction quality."
+
+      - name: Soft-kNN ICU Mortality
+        highlights:
+          - Soft-kNN imputation combined with propensity-weighted training for subgroup-fair ICU mortality prediction on MIMIC-IV. Manuscript in preparation; target venue AAAI 2027.
+
+    Skills:
+      - name: Foundation Models & Deep Learning
+        keywords: PyTorch, JAX/Flax, Hugging Face Transformers, LangChain, LoRA/QLoRA, PEFT, SFT, RLHF, Transformers, RNNs, CNNs, Diffusion Models, RAG, Structured-Output Decoding, Tool-Use Agents
+
+      - name: Biomedical & Scientific AI
+        keywords: Multimodal Fusion (text, medical imaging, digital pathology, multi-omic genomics), Whole-Slide Imaging Pipelines, QuPath, CellProfiler, ImageJ, OpenCV, Clinical NLP, FHIR-aware Structured Outputs with Citation Grounding, Wet-Lab Foundations (GEVIs, primary neuronal culture, AAV vector production)
+
+      - name: ML Infrastructure & Training Systems
+        keywords: Distributed Training (DDP, FSDP, Mixed Precision), Weights & Biases, MLflow, Hydra, Evaluation Harnesses for LLMs and Retrieval, Vector Stores (FAISS, Chroma, pgvector), Kubernetes (EKS), Docker, AWS (S3, ECR), FastAPI/Pydantic, Go-based Orchestration, Grafana
+
+      - name: Programming & Research Tooling
+        keywords: Python (NumPy, Pandas, SciPy, scikit-learn, UMAP, statsmodels), Go, SQL, Bash, React, Git, GitHub Actions, CI/CD, AWS, GCP, Scientific Writing, Evidence Synthesis Methodology (PRISMA, TRIPOD)
+
+    Publications:
+      - title: Machine learning applications for differentiation of glioma from brain metastasis — a systematic review
+        authors:
+          - L. Jekel
+          - W. R. Brim
+          - M. von Reppert
+          - et al.
+        publisher: Cancers
+        releaseDate: 2022
+        url: https://doi.org/10.3390/cancers14061369
+        summary: Systematic review of ML methods for differentiating glioma from brain metastases. 51 citations.
+
+      - title: "Machine learning in differentiating gliomas from primary CNS lymphomas: a systematic review, reporting quality, and risk of bias assessment"
+        authors:
+          - G. I. Cassinelli Petersen
+          - J. Shatalov
+          - T. Verma
+          - W. R. Brim
+          - et al.
+        publisher: American Journal of Neuroradiology
+        releaseDate: 2022
+        url: https://doi.org/10.3174/ajnr.A7473
+        summary: 25 citations.
+
+      - title: "Machine learning models for classifying high- and low-grade gliomas: a systematic review and quality of reporting analysis"
+        authors:
+          - R. C. Bahar
+          - S. Merkaj
+          - W. R. Brim
+          - et al.
+        publisher: Frontiers in Oncology
+        releaseDate: 2022
+        summary: 21 citations.
+
+      - title: Systematic literature review of machine learning algorithms using pretherapy radiologic imaging for glioma molecular subtype prediction
+        authors:
+          - J. Lost
+          - T. Verma
+          - W. R. Brim
+          - et al.
+        publisher: American Journal of Neuroradiology
+        releaseDate: 2023
+        summary: Full publication list available at /publications/.
+
+    Certificates:
+      - name: Image data analysis from microscopy and MRI using QuPath
+        issuer: QuPath
+
+      - name: Data or Specimens Only Research
+        issuer: CITI Program
+
+    Languages:
+      - name: English
+        summary: Native speaker
+
+      - name: French
+        summary: Intermediate
+
+      - name: Spanish
+        summary: Intermediate
+
+      - name: Mandarin
+        summary: Novice
