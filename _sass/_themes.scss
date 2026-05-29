@@ -202,10 +202,20 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
+/* Pin the fixed navbar flush to the top of the viewport. Without this its
+   `top` was resolving to the body's padding-top value, so the navbar got
+   pushed DOWN by the same amount that offset the content. That left an empty
+   band above the navbar while the page title stayed tucked behind it -- and
+   raising the padding only made both worse together. */
+#navbar.fixed-top {
+  top: 0 !important;
+}
+
 /* Clearance below the fixed navbar so page titles aren't crowded.
-   (Gem default is 57px = navbar height with zero breathing room.) */
+   (Gem default is 57px = navbar height with zero breathing room; 64px adds a
+   small gap below the 57px-tall navbar.) */
 body.fixed-top-nav {
-  padding-top: 72px !important;
+  padding-top: 64px !important;
 }
 
 /* When jumping to a section via the sidebar/TOC, keep the heading clear of the
