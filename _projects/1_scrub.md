@@ -9,7 +9,6 @@ category: current
 
 {% include figure.liquid loading="eager" path="assets/img/projects/scrub_qualitative.png" title="Off-the-shelf tracking fails on a real gloved frame. white_surgical example (id 34506): MediaPipe detects no hand (no red), SCRUB (blue) tracks against ground truth (green). Example success case, not typical: PCK@20 0.92 here vs. a 36.17% average." class="img-fluid rounded z-depth-1" %}
 
-
 <div class="card my-4">
   <div class="card-body">
     <div class="row align-items-center text-center justify-content-center g-0">
@@ -27,7 +26,7 @@ category: current
   </div>
 </div>
 
-On the real-glove `white_surgical` cell, MediaPipe Hands returns 0.00% PCK@20 while SCRUB returns 36.17% on identical images and ground truth (95% CI [31.51, 40.81]), under a pre-registered paired image-level bootstrap (10,000 resamples, seed 42). This is not a better number for its own sake: it separates *no landmarks at all* from *present, recoverable landmarks*.
+On the real-glove `white_surgical` cell, MediaPipe Hands returns 0.00% PCK@20 while SCRUB returns 36.17% on identical images and ground truth (95% CI [31.51, 40.81]), under a pre-registered paired image-level bootstrap (10,000 resamples, seed 42). This is not a better number for its own sake: it separates _no landmarks at all_ from _present, recoverable landmarks_.
 
 ## Contributions
 
@@ -118,34 +117,34 @@ I'm building toward a public gloved-webcam benchmark and am open to collaborator
 
 ## References
 
-1. N. Louis, L. Zhou, S. J. Yule, R. D. Dias, M. Manojlovich, F. D. Pagani, D. S. Likosky, and J. J. Corso, “Temporally guided articulated hand pose tracking in surgical videos,” *International Journal of Computer Assisted Radiology and Surgery*, vol. 17, pp. 1–9, 2022. [Dataset: Surgical Hands](https://github.com/MichiganCOG/Surgical_Hands_RELEASE)
+1. N. Louis, L. Zhou, S. J. Yule, R. D. Dias, M. Manojlovich, F. D. Pagani, D. S. Likosky, and J. J. Corso, “Temporally guided articulated hand pose tracking in surgical videos,” _International Journal of Computer Assisted Radiology and Surgery_, vol. 17, pp. 1–9, 2022. [Dataset: Surgical Hands](https://github.com/MichiganCOG/Surgical_Hands_RELEASE)
 
 2. <a id="ref-2"></a>P. Boutis, Z. Batzos, K. Konstantoudakis, A. Dimou, and P. Daras, “MC-hands-1M: A glove-wearing hand dataset for pose estimation,” arXiv:2210.10428, 2022. [Dataset](https://zenodo.org/records/7194271)
 
-3. C. Zimmermann, D. Cremers, et al., “FreiHAND: A dataset for markerless capture of hand pose and shape from single RGB images,” in *Proc. IEEE/CVF ICCV*, 2019, pp. 813–822.
+3. C. Zimmermann, D. Cremers, et al., “FreiHAND: A dataset for markerless capture of hand pose and shape from single RGB images,” in _Proc. IEEE/CVF ICCV_, 2019, pp. 813–822.
 
 4. F. Zhang, A. Bazarevsky, A. Vakunov, A. Tkachenka, G. Sung, C.-L. Chang, and A. Grundmann, “MediaPipe Hands: On-device real-time hand tracking,” arXiv:2006.10214, 2020.
 
-5. K. Sun, B. Xiao, D. Liu, and J. Wang, “Deep high-resolution representation learning for human pose estimation,” in *Proc. IEEE/CVF CVPR*, 2019, pp. 5693–5703.
+5. K. Sun, B. Xiao, D. Liu, and J. Wang, “Deep high-resolution representation learning for human pose estimation,” in _Proc. IEEE/CVF CVPR_, 2019, pp. 5693–5703.
 
-6. X. Wang, L. Bo, and F. Li, “Adaptive Wing Loss for robust face alignment via heatmap regression,” in *Proc. IEEE/CVF ICCV*, 2019, pp. 6971–6981.
+6. X. Wang, L. Bo, and F. Li, “Adaptive Wing Loss for robust face alignment via heatmap regression,” in _Proc. IEEE/CVF ICCV_, 2019, pp. 6971–6981.
 
-7. P. Chattopadhyay, K. Sarangmath, V. Vijaykumar, and J. Hoffman, “PASTA: Proportional amplitude spectrum training augmentation for syn-to-real domain generalization,” in *Proc. IEEE/CVF ICCV*, 2023, pp. 19288–19300.
+7. P. Chattopadhyay, K. Sarangmath, V. Vijaykumar, and J. Hoffman, “PASTA: Proportional amplitude spectrum training augmentation for syn-to-real domain generalization,” in _Proc. IEEE/CVF ICCV_, 2023, pp. 19288–19300.
 
 8. J. Tobin, R. Fong, A. Ray, J. Schneider, W. Zaremba, and P. Abbeel, “Domain randomization for transferring deep neural networks from simulation to the real world,” arXiv:1703.06907, 2017.
 
-9. J.-Y. Zhu, T. Park, P. Isola, and A. A. Efros, “Unpaired image-to-image translation using cycle-consistent adversarial networks,” in *Proc. IEEE ICCV*, 2017, pp. 2223–2232.
+9. J.-Y. Zhu, T. Park, P. Isola, and A. A. Efros, “Unpaired image-to-image translation using cycle-consistent adversarial networks,” in _Proc. IEEE ICCV_, 2017, pp. 2223–2232.
 
-10. F. Mueller, D. Mehta, O. Sridhar, D. Cremers, and S. Sridhar, “GANerated hands for real-time 3D hand tracking from monocular RGB,” in *Proc. IEEE/CVF CVPR*, 2018, pp. 49–59.
+10. F. Mueller, D. Mehta, O. Sridhar, D. Cremers, and S. Sridhar, “GANerated hands for real-time 3D hand tracking from monocular RGB,” in _Proc. IEEE/CVF CVPR_, 2018, pp. 49–59.
 
-11. A. Kirillov, E. Mintun, N. Ravi, et al., “Segment anything,” in *Proc. IEEE/CVF ICCV*, 2023, pp. 4015–4026.
+11. A. Kirillov, E. Mintun, N. Ravi, et al., “Segment anything,” in _Proc. IEEE/CVF ICCV_, 2023, pp. 4015–4026.
 
-12. Y. Ganin and V. Lempitsky, “Unsupervised domain adaptation by backpropagation,” in *Proc. ICML*, 2015, pp. 1180–1189.
+12. Y. Ganin and V. Lempitsky, “Unsupervised domain adaptation by backpropagation,” in _Proc. ICML_, 2015, pp. 1180–1189.
 
-13. A. W. Kiefer et al., “Enhanced 2D hand pose estimation for gloved medical applications: A preliminary model,” *Sensors*, vol. 24, no. 18, art. 6005, 2024.
+13. A. W. Kiefer et al., “Enhanced 2D hand pose estimation for gloved medical applications: A preliminary model,” _Sensors_, vol. 24, no. 18, art. 6005, 2024.
 
 14. R. Papo et al., “RoHan: Robust hand detection in the operating room,” arXiv:2501.08115, 2025.
 
-15. A. Mewes et al., “Touchless interaction with software in interventional radiology and surgery: A systematic literature review,” *International Journal of Computer Assisted Radiology and Surgery*, vol. 12, no. 2, pp. 291–305, 2017.
+15. A. Mewes et al., “Touchless interaction with software in interventional radiology and surgery: A systematic literature review,” _International Journal of Computer Assisted Radiology and Surgery_, vol. 12, no. 2, pp. 291–305, 2017.
 
-16. G. Casiez, N. Roussel, and D. Vogel, “1 € filter: A simple speed-based low-pass filter for noisy input in interactive systems,” in *Proc. ACM CHI*, 2012, pp. 2527–2530.
+16. G. Casiez, N. Roussel, and D. Vogel, “1 € filter: A simple speed-based low-pass filter for noisy input in interactive systems,” in _Proc. ACM CHI_, 2012, pp. 2527–2530.
