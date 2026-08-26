@@ -7,11 +7,16 @@ importance: 5
 category: current
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/projects/lumisense_problem.png" title="Hand tremor exceeds the DALK safety margin. The Descemet's membrane safe zone is 10–15 µm; the manual tremor envelope is roughly 100 µm. Figure created by Waverly Rose Brim." class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/projects/LumiSense_DALK.jpg" title="Before and after deep anterior lamellar keratoplasty (DALK)." class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+  Before and after DALK. Image credit: <a href="https://www.airalaeye.com/en/cornea/deep-anterior-lamellar-keratoplasty-dalk" rel="noopener noreferrer" target="_blank">Airala Eye</a>.
+</div>
 
 Deep anterior lamellar keratoplasty (DALK) is preferred over full-thickness corneal transplant because it preserves the patient's own endothelium and lowers graft rejection risk. The procedure depends on dissecting a ~500 µm stroma down to a 10–15 µm margin above Descemet's membrane, by hand, with an unassisted tremor envelope roughly 7–10× that margin. Published manual perforation rates run from 4% to 39%, and a perforation typically means intraoperative conversion to the procedure the surgeon was trying to avoid.
 
 **Need statement.** Corneal surgeons need a way to accurately determine and control incision depth during keratoplasty in order to prevent unintended damage to adjacent tissue.
+
+{% include figure.liquid loading="eager" path="assets/img/projects/lumisense_problem.png" title="Hand tremor exceeds the DALK safety margin. The Descemet's membrane safe zone is 10–15 µm; the manual tremor envelope is roughly 100 µm. Figure created by Waverly Rose Brim." class="img-fluid rounded z-depth-1" %}
 
 ## Concept
 
@@ -45,7 +50,7 @@ Current tools leave the depth decision entirely to the surgeon: adjustable treph
 
 I served as the AI and technical lead (CTO role) on a five-person team in Johns Hopkins EN.585.702, Medical Device Innovation and Design (Spring 2025). I owned the sensing-to-inference-to-actuation system architecture, the on-device segmentation model concept, the end-to-end latency and safety-actuation design, and all device renders and clinical figures.
 
-**Team.** Ramya Tangirala, Roshni Parikh, Ava Stadler, Matthew Pack, Waverly Rose Brim. Advisors: Soumyadipta Acharya, MD, MSE, PhD; Shameema Sikder, MD; Swaroop Vedula.
+**Team.** Ramya Tangirala, Roshni Parikh, Ava Stadler, Matthew Pack, Waverly Rose Brim. Advisor: Soumyadipta Acharya, MD, MSE, PhD
 
 ## Status
 
