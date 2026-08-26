@@ -2,9 +2,9 @@
 layout: page
 title: LumiSense
 description: Sensing-guided cannula for safer deep anterior lamellar keratoplasty
-img: assets/img/projects/lumisense.png
-importance: 8
-category: past
+img: assets/img/projects/lumisense.jpg
+importance: 5
+category: current
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/projects/lumisense_problem.png" title="Hand tremor exceeds the DALK safety margin. The Descemet's membrane safe zone is 10–15 µm; the manual tremor envelope is roughly 100 µm. Figure created by Waverly Rose Brim." class="img-fluid rounded z-depth-1" %}
@@ -17,7 +17,9 @@ Deep anterior lamellar keratoplasty (DALK) is preferred over full-thickness corn
 
 LumiSense is a handheld DALK cannula that closes the loop between depth sensing and needle advancement. A sensing element at the tip reads stromal depth in real time, an on-board model estimates proximity to Descemet's membrane, and a hardware safety stop prevents the needle from advancing past the safe margin. Loss of power, signal, or software all resolve to the same outcome: the needle cannot move.
 
-{% include figure.liquid loading="eager" path="assets/img/projects/lumisense.gif" title="CAD render of the LumiSense handpiece. Render created by Waverly Rose Brim." class="img-fluid rounded z-depth-1" %}
+<figure>
+  <img src="{{ 'assets/img/projects/lumisense_cad.gif' | relative_url }}" class="img-fluid rounded z-depth-1" width="100%" height="auto" alt="CAD render of the LumiSense handpiece. Render created by Waverly Rose Brim." title="CAD render of the LumiSense handpiece. Render created by Waverly Rose Brim." loading="eager">
+</figure>
 
 ## Quick facts
 
