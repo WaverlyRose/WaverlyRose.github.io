@@ -236,3 +236,10 @@ body.fixed-top-nav {
     scroll-margin-top: 80px;
   }
 }
+
+/* Project section labels ("current" / "past") used --global-divider-color,
+   which is nearly invisible on both white and black backgrounds. */
+.projects h2.category {
+  color: var(--global-text-color);
+  border-bottom-color: var(--global-divider-color);
+}

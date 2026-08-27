@@ -4,7 +4,7 @@ title: Peritoneal Seeding Detection
 description: Intraoperative decision support for biopsy selection in diagnostic laparoscopy
 img: assets/img/projects/peritoneal_thumbnail.png
 importance: 9
-category: past
+category: current
 ---
 
 <figure>
